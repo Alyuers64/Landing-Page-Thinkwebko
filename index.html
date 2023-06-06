@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap Css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- Style Css -->
+    <link rel="stylesheet" href="style.css">
+    <title>thinkwebko</title>
+</head> 
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://drive.google.com/uc?id=1y6nRFic93ur2QagoemFrEv3t0VWGgBbN" width="120px" height="90px" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#produk">Produk Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#maps">Lokasi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#pembayaran">Pembayaran</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Kontak</a>
+                </li>
+            </ul>
+            <a href="#order" class="btn btn-brand">Beli Sekarang</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Home -->
+<div id="home" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+        <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h4 class="text-white">SELAMAT DATANG DI THINKWEBKO</h4>
+                        <h1 class="display-1 my-3 fw-bold text-white">Kami ada di setiap Asapmu</h1>
+                        <a href="#maps" class="btn btn-brand">Kunjungi Kami</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="carousel-item text-center bg-cover vh-100 slide-2">
+            <div class="container h-100 d-flex align-items-center justify-content-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h4 class="text-white">Jam Operasional</h4>
+                        <h1 class="display-1 my-3 fw-bold text-white">Rabu-Minggu 09:00-23:00 WIB</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#home" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#home" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<!-- About -->
+<section id="about">
+    <div class="container">
+        <div class="row gy-4 align-items-center">
+            <div class="col-lg-5 text-align-center">
+                <img src="https://drive.google.com/uc?id=1A7Ij-n-__XkbUVQYZUMhoZxsV9dCqtbk" alt="">
+            </div>
+            <div class="col-lg-5">
+                <div class="sa">
+                    <h1>Tentang Kami</h1>
+                </div>
+                <div class="divider my-4"></div>
+                <p>THINKWEBKO adalah toko yang berdiri sejak 2020 lalu, dan mempunyai 1 cabang di Palangka Raya pada jalan Galaxy Induk. Toko utama terletak di jalan Sangga Buana II di daerah kota Palangka Raya, Kalimantan Tengah.</p>
+                <p>Toko kami menjual beberapa tembakau pilihan dan kertas lintingan beserta peralatan yang dibutuhkan untuk melinting.</p>
+                <a href="#maps" class="btn btn-brand">Lihat Lokasi</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Produk -->
+<section id="produk" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 intro-text">
+                <h1>Produk Kami</h1>
+                <p>Tersedia Produk Terbaru Dari Kami Dijamin 100% Barang Original Jangan Lupa Untuk Pesan Produk</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                type="button" role="tab" aria-controls="pills-all" aria-selected="true">Semua Produk</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-tembakau-tab" data-bs-toggle="pill"
+                data-bs-target="#pills-tembakau" type="button" role="tab" aria-controls="pills-tembakau"
+                aria-selected="true">Tembakau</button>
+            </li>
+
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-kertas-tab" data-bs-toggle="pill" data-bs-target="#pills-kertas"
+                type="button" role="tab" aria-controls="pills-kertas" aria-selected="true">Kertas Tembakau</button>
+            </li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+
+            <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+            tabindex="0">
+
+            <div class="row gy-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                        <img src="https://assets.tokko.io/c1d1a35f-ca54-40e5-bea1-0cc15cabd134/products/images/0be48c2e-8003-42b8-92fc-ac1f0296b918" alt="">
+                        <div class="menu-item-content p-4">
+                            <div>
+                                <span>Rasa(8.0)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">SW Prime Mole Redwine</a></h5>
+                            <h5 class="mt-1 mb-2"><a href="#">Rp. 22.000</a></h5>
+                            <p class="small">Tembakau merk SW Prime dengan aroma Wine Segar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/5/26/249888/249888_86c07b3f-2121-4afa-b70d-8d97a55174ba_2048_2048.jpg" alt="">
+                        <div class="menu-item-content p-4">
+                            <div>
+                                <span>Rasa(7.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                    
+                                </span>
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">VIRGIN Royal Apple</a></h5>
+                            <h5 class="mt-1 mb-2"><a href="#">Rp. 21.000</a></h5>
+                            <p class="small">Tembakau merk Virgin Royal dengan aroma buah Apple</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                        <img src="https://assets.tokko.io/c1d1a35f-ca54-40e5-bea1-0cc15cabd134/products/images/5a7ff6cb-18e9-4ec2-8ebf-7366f9b4b5f6" alt="">
+                        <div class="menu-item-content p-4">
+                            <div>
+                                <span>Rasa(9.0)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </span>
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Jago Rasa Cappucino</a></h5>
+                            <h5 class="mt-1 mb-2"><a href="#">Rp. 20.000</a></h5>
+                            <p class="small">Tembakau merk Jago Rasa dengan aroma kopi cappucino</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                        <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//101/MTA-36372296/no_brand_tembakau_rasa_durensimadu_flavour_all_variant_rasa_-_bako_aneka_rasa_full06_e6eiuumm.jpg" alt="">
+                        <div class="menu-item-content p-4">
+                            <div>
+                                <span>Rasa(7.0)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </span>
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Grape Candy</a></h5>
+                            <h5 class="mt-1 mb-2"><a href="#">Rp. 20.000</a></h5>
+                            <p class="small">Tembakau merk Grape Candy dengan aroma Anggur</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                        <img src="https://static.bmdstatic.com/gk/production/e7bd493b0b67c9e1ee6bb58625f356f8.jpg" alt="">
+                        <div class="menu-item-content p-4">
+                            <div>
+                                <span>Kualitas(8.0)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                </span>
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Lem Kertas</a></h5>
+                            <h5 class="mt-1 mb-2"><a href="#">Rp. 6.000</a></h5>
+                            <p class="small">Digunakan untuk merekatkan gulungan lintingan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                        <img src="https://images.tokopedia.net/img/cache/500-square/product-1/2015/7/12/295501/295501_06631185-1e6a-472f-840b-374962597c19.JPG" alt="">
+                        <div class="menu-item-content p-4">
+                            <div>
+                                <span>Manis(7.4)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Buffalo Bill</a></h5>
+                            <h5 class="mt-1 mb-2"><a href="#">Rp. 5.000</a></h5>
+                            <p class="small">Kertas tembakau premium dengan manis sedang</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                        <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2020/10/13/7136f8cf-a7a3-4316-968b-6bcccfcaec0c.jpg" alt="">
+                        <div class="menu-item-content p-4">
+                            <div>
+                                <span>Kualitas(8.0)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Filter (Bisa Costume)</a></h5>
+                            <h5 class="mt-1 mb-2"><a href="#">Rp. 6.000</a></h5>
+                            <p class="small">Filter rokok atau lintingan bisa custumisasi rasa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="menu-item bg-white shadow-on-hover">
+                        <img src="https://www.jakartanotebook.com/images/products/74/1020/39572/2/alat-penggulung-rokok-manual-tobacco-roller-machine-70mm-tn900-black-5.jpg" alt="">
+                        <div class="menu-item-content p-4">
+                            <div>
+                                <span>Kualitas(8.0)</span>
+                                <span class="stars">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-fill"></i>
+                                </span>
+                            </div>
+                            <h5 class="mt-1 mb-2"><a href="#">Alat Linting</a></h5>
+                            <h5 class="mt-1 mb-2"><a href="#">Rp. 17.000</a></h5>
+                            <p class="small">Alat penggulung lintingan dengan ukuran standar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="tab-pane fade show" id="pills-tembakau" role="tabpanel"
+        aria-labelledby="pills-tembakau-tab" tabindex="0">
+        <div class="row gy-4">
+
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://images.tokopedia.net/img/cache/500-square/product-1/2020/5/26/249888/249888_86c07b3f-2121-4afa-b70d-8d97a55174ba_2048_2048.jpg" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Rasa(7.4)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">VIRGIN Royal Apple</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 21.000</a></h5>
+                        <p class="small">Tembakau merk Virgin Royal dengan aroma buah Apple</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://assets.tokko.io/c1d1a35f-ca54-40e5-bea1-0cc15cabd134/products/images/5a7ff6cb-18e9-4ec2-8ebf-7366f9b4b5f6" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Rasa(9.0)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">Jago Rasa Cappucino</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 20.000</a></h5>
+                        <p class="small">Tembakau merk Jago Rasa dengan aroma kopi cappucino</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//101/MTA-36372296/no_brand_tembakau_rasa_durensimadu_flavour_all_variant_rasa_-_bako_aneka_rasa_full06_e6eiuumm.jpg" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Rasa(7.0)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">Grape Candy</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 20.000</a></h5>
+                        <p class="small">Tembakau merk Grape Candy dengan aroma Anggur</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://lzd-img-global.slatic.net/g/p/5eacd9ec8b14ad2e7c73a4d3a3bb4c55.jpg_720x720q80.jpg_.webp" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Rasa(8.5)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">Jago Rasa Black Current</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 22.000</a></h5>
+                        <p class="small">Tembakau merk Jago Rasa dengan Aroma Black Current</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://images.tokopedia.net/img/cache/700/VqbcmM/2021/7/5/51a8bf7b-0184-494d-918a-586f3388d1cf.jpg" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Rasa(9.0)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">Barack Taste Manggo</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 20.000</a></h5>
+                        <p class="small">Tembakau merk Barack Taste dengan aroma buah mangga segar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://assets.tokko.io/c1d1a35f-ca54-40e5-bea1-0cc15cabd134/products/images/c5e303e7-d928-443d-bf97-7128ab625a90" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Rasa(8.0)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">SW Mole Menthol</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 21.000</a></h5>
+                        <p class="small">Tembakau merk SW Mole dengan aroma Menthol</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://bakopi-iteung.com/wp-content/uploads/2021/12/SWCT.jpg" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Rasa(7.0)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">SW Prime Classic Taste</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 21.000</a></h5>
+                        <p class="small">Tembakau merk SW Prime dengan aroma original</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://assets.tokko.io/c1d1a35f-ca54-40e5-bea1-0cc15cabd134/products/images/0be48c2e-8003-42b8-92fc-ac1f0296b918" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Rasa(8.0)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">SW Prime Mole Redwine</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 22.000</a></h5>
+                        <p class="small">Tembakau merk SW Prime dengan aroma Wine Segar</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="tab-pane fade show" id="pills-kertas" role="tabpanel" aria-labelledby="pills-kertas-tab"
+    tabindex="0">
+    <div class="row gy-4">
+        <div class="col-lg-3 col-sm-6">
+            <div class="menu-item bg-white shadow-on-hover">
+                <img src="https://images.tokopedia.net/img/cache/500-square/VqbcmM/2021/7/27/78933820-2381-4fce-b440-8f4fc234df89.jpg" alt="">
+                <div class="menu-item-content p-4">
+                    <div>
+                        <span>Manis(7.0)</span>
+                        <span class="stars">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Kertas Rokok</a></h5>
+                    <h5 class="mt-1 mb-2"><a href="#">Rp. 5.000</a></h5>
+                    <p class="small">Kertas rokok merk Class Mild kualitas original</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="menu-item bg-white shadow-on-hover">
+                <img src="https://s0.bukalapak.com/img/04215793542/large/data.jpeg.webp" alt="">
+                <div class="menu-item-content p-4">
+                    <div>
+                        <span>Manis(7.5)</span>
+                        <span class="stars">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+
+                        </span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Kertas HTL</a></h5>
+                    <h5 class="mt-1 mb-2"><a href="#">Rp. 6.000</a></h5>
+                    <p class="small">Kertas rokok merk HTL dengan warna coklat</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="menu-item bg-white shadow-on-hover">
+                <img src="https://d1sag4ddilekf6.azureedge.net/compressed_webp/items/IDITE2021062508113943156/detail/menueditor_item_3b04929d577f43f5aae2fbee54746c0f_1624608662446906120.webp" alt="">
+                <div class="menu-item-content p-4">
+                    <div>
+                        <span>Manis(8.0)</span>
+                        <span class="stars">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                        </span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Kertas Sadewa</a></h5>
+                    <h5 class="mt-1 mb-2"><a href="#">Rp. 6.000</a></h5>
+                    <p class="small">Kertas rokok merk Sadewa dengan kualitas super</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6">
+            <div class="menu-item bg-white shadow-on-hover">
+                <img src="https://javan-cigars.com/wp/wp-content/uploads/Buffalo-Bill.jpg" alt="">
+                <div class="menu-item-content p-4">
+                    <div>
+                        <span>Manis(7.4)</span>
+                        <span class="stars">
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-fill"></i>
+                            <i class="ri-star-half-fill"></i>
+                        </span>
+                    </div>
+                    <h5 class="mt-1 mb-2"><a href="#">Buffalo Bill</a></h5>
+                    <h5 class="mt-1 mb-2"><a href="#">Rp. 5.000</a></h5>
+                    <p class="small">Kertas rokok premium dengan manis sedang</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="tab-pane fade show" id="pills-alat" role="tabpanel" aria-labelledby="pills-alat-tab"
+        tabindex="0">
+        <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://id-test-11.slatic.net/p/2dd546dd8901f4e397f500caf48290a1.jpg" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Manis(8.0)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">Kertas Surya</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 6.500</a></h5>
+                        <p class="small">Kertas rokok surya pabrikan dengan kualitas original</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://s4.bukalapak.com/img/44942709432/large/data.jpeg" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Manis(8.5)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-half-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">Kertas Irawan Sigaret</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 7.000</a></h5>
+                        <p class="small">Kertas rokok merk IRAWAN Sigaret dengan kualitas premium</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://www.static-src.com/wcsstore/Indraprastha/images/catalog/full//95/MTA-7916225/gayo_tgr_papir_mascote_1pcs_full01_tgmw0vml.jpg" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Manis(9.0)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">Kertas MASCOTTE</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 8.000</a></h5>
+                        <p class="small">Kertas rokok merk Mascotte dengan kualitas premium</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="menu-item bg-white shadow-on-hover">
+                    <img src="https://manfaatrokok.files.wordpress.com/2019/12/kertas_mars_brand.jpeg?w=674&h=674" alt="">
+                    <div class="menu-item-content p-4">
+                        <div>
+                            <span>Rasa(9.0)</span>
+                            <span class="stars">
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                                <i class="ri-star-fill"></i>
+                            </span>
+                        </div>
+                        <h5 class="mt-1 mb-2"><a href="#">Kertas Mars Brand</a></h5>
+                        <h5 class="mt-1 mb-2"><a href="#">Rp. 9.000</a></h5>
+                        <p class="small">Kertas rokok merk Mars Brand dengan kualitas premium</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- Maps -->
+<section class="tentang" id="maps">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 intro-text mt-1">
+                <h1>Lokasi</h1>
+                <p>Silahkan Kunjungi Toko Utama Dari Alamat Dibawah Ini</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row gy-4 align-items-center">
+            <div class="col-lg-6">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.8759641705724!2d113.90291551457399!3d-2.2005709983960173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dfcb32786cb5f0b%3A0xcdd23f2843b017e8!2sThinkwe%20Tobacco!5e0!3m2!1sid!2sid!4v1664898947165!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-5">
+                <h1>Toko Utama</h1>
+                <div class="divider my-4"></div>
+                <p><i class="fas fa-location-dot"></i> Thinkwe Tobacco, Jl. Sangga Buana II No.018, Palangka, Kec. Jekan Raya, Kota Palangka Raya, Kalimantan Tengah 74874</p>
+                <p><i class="fas fa-phone"></i>WA Kami. 0857-5406-1604</a></p>
+                <a href="https://www.google.co.id/maps/place/Thinkwe+Tobacco/@-2.200571,113.9029155,17z/data=!3m1!4b1!4m5!3m4!1s0x2dfcb32786cb5f0b:0xcdd23f2843b017e8!8m2!3d-2.200571!4d113.9051042" class="btn btn-brand">Buka Maps</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- pembayaran -->
+<section id="pembayaran">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 intro-text">
+                <h1>Pembayaran</h1>
+            </div>
+        </div>
+        <div class="row gy-4">
+            <div class="col-lg-3 col-sm-6">
+                <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                    <img src="https://play-lh.googleusercontent.com/v0UW49SrkxIzfRRhYArIJvP456-QeKT9-1Yxk19gwJESPidGAnJS7n7_sHZe81NpX_E" alt="">
+                    <div class="team-member-content">
+                        <h4 class="mb-0 mt-4">DANA</h4>
+                        <p class="mb-0">Dapat melakukan pembayaran via Dana</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                    <img src="https://play-lh.googleusercontent.com/ZY7pvdVzvq6yEnvW0G15mRGCFm5OGkIk-czbG2RW6LAppo0dY54fZOBbM9OOo38t97qN" alt="">
+                    <div class="team-member-content">
+                        <h4 class="mb-0 mt-4">OVO</h4>
+                        <p class="mb-0">Dapat melakukan pembayaran via Ovo</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                    <img src="https://gopay.co.id/icon.png" alt="">
+                    <div class="team-member-content">
+                        <h4 class="mb-0 mt-4">GO PAY</h4>
+                        <p class="mb-0">Dapat melakukan pembayaran via Go Pay</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="team-member px-4 py-5 border shadow-on-hover text-center">
+                    <img src="https://png.pngtree.com/png-vector/20210528/ourlarge/pngtree-cod-shopping-online-badge-png-image_3381304.jpg" alt="">
+                    <div class="team-member-content">
+                        <h4 class="mb-0 mt-4">COD</h4>
+                        <p class="mb-0">Dapat melakukan pembayaran secara langsung di toko</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Order -->
+<section id="order">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 intro-text">
+                <h1>Pesan Sekarang</h1>
+                <p>Silahkan Masukan Nama Anda Beserta Alamat Untuk Melakukan Pembelian Produk Kami</p>
+            </div>
+        </div>
+        <form action="#" class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="row g-3">
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Nama Lengkap">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="email" class="form-control" placeholder="Alamat Lengkap">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="Tanggal Pemesanan">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="text" class="form-control" placeholder="No. Hp">
+                    </div>
+                    <div class="form-group col-md-12">
+                        <textarea name="" id="" cols="30" rows="4" class="form-control"
+                        placeholder="Nama Produk"></textarea>
+                    </div>
+                    <div class="form-group text-center col-md-12">
+                        <a href="#" class="btn btn-brand">Kirim Pesanan</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="footer-distributed" id="contact">
+    <div class="footer-right">
+        <a href="https://www.instagram.com/alyuers_64/"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.facebook.com/ripaldo.alyura.7"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/ripaldo-alyura-7b4aa7242/"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://github.com/Ripaldo064"><i class="bx bxl-github"></i></a>
+    </div>
+    <div class="footer-left">
+        <p class="footer-links">
+            <a class="link-1" href="#">Beranda</a>
+            <a href="#produk">Produk</a>
+            <a href="#maps">Lokasi</a>
+            <a href="#pembayaran">Pembayaran</a>
+            <a href="#about">Informasi</a>
+        </p>
+        <p>Ripaldo Alyura &copy; 2022</p>
+    </div>
+</footer>
+
+<!-- Bootstrap Bundle Js -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+crossorigin="anonymous"></script>
+</body>
+
+</html>
